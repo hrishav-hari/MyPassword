@@ -45,6 +45,9 @@ ul li:hover{
     cursor: pointer;
     color: rgb(194, 187, 187);
 }
+.table-container{
+    overflow-x: auto;
+}
 table, td, tr, tbody{
     border: solid black 2px;
     border-collapse: collapse;
