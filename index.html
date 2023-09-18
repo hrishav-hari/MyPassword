@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPassword</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">MyPassword</div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h2>The Password Manager</h2>
+      <p>
+        Welcome to <b>MyPassword</b>!<br />
+        At MyPassword, we understand the importance of keeping your
+        digital life secure and hassle-free. We're delighted to have you here,
+        and we're committed to helping you manage your passwords with ease and
+        confidence.
+      </p>
+      <h3>My Passwords <span id="alert">(Successfully copied!)</span></h3>
+      <table>
+        <tr>
+          <th>Website</th>
+          <th>Username</th>
+          <th>Password</th>
+          <th>Action</th>
+        </tr>
+      </table>
+      <h3>Add New Password</h3>
+      <form action="/submit" method="post">
+        <!-- Text input for Website -->
+        <label for="website">Website:</label>
+        <input type="text" id="website" name="website" required />
+        <br/><br/>
+
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <br/><br/>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br/><br/>
+
+        <!-- Submit button -->
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+}
+h1, h2, h3{
+    margin: 20px;
+}
+nav{
+    background-color: rgb(84, 84, 84);
+    padding: 12px 3px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 80vw;
+    margin: 20px auto;
+}
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 23px;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+.logo:hover{
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(194, 187, 187);
+}
+ul{
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin: 0 13px;
+    transition-duration: 0.2s;
+}
+ul li:hover{
+    cursor: pointer;
+    color: rgb(194, 187, 187);
+}
+table, td, tr, tbody{
+    border: solid black 2px;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+.button{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 25px 0;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.button:hover{
+    background: white;
+    color: black;
+}
+.deleteButton{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 1px solid gray;
+    border-radius: 6px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.deleteButton:hover{
+    background: white;
+    color: black;
+}
+#alert{
+    display: none;
+}
+.copyButton{
+    height: 15px;
+    width: 25px;
+    padding: 1px 1px;
+    font-size: 8px;
+    background: gray;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.copyButton:hover{
+    background: white;
+    color: black;
+}
