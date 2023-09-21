@@ -105,3 +105,10 @@ document.querySelector(".button").addEventListener("click", (e) => {
   }
   showPasswords()
 });
+
+
+//Logic to activate the dropdown menu in small screens
+document.querySelector('.menu-icon').addEventListener('click', function() {
+  const menu = document.querySelector('.menu');
+  menu.classList.toggle('active');
+});
