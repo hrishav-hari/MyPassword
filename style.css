@@ -61,6 +61,7 @@ ul.menu li {
     .menu-icon {
         display: flex;
         padding-right: 20px;
+        justify-content: center;
     }
     ul.menu {
         display: none;
